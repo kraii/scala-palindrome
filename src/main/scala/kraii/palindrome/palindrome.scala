@@ -1,6 +1,5 @@
 package kraii
 
-import scala.annotation.tailrec
 package object palindrome {
   def longestPalindrome(text: String): String = {
     if (text.isEmpty()) ""
